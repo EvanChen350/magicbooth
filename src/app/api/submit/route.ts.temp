@@ -1,0 +1,63 @@
+// import { MongoClient } from 'mongodb';
+
+// import type { NextApiRequest, NextApiResponse } from 'next';
+
+// const FORM_INDICATOR = ['Contact', 'Requirement'];
+
+// async function handler(req: NextApiRequest, res: NextApiResponse) {
+//   if (req.method === 'POST') {
+
+//   const formIndicatorHeader = req.headers['x-form-indicator']?.toString() || '';
+//   if (!FORM_INDICATOR.includes(formIndicatorHeader)) {  // ...since the header value could be 'string | string[]'...
+//     res.status(400).json({ message: 'Something wrong with the request header' });
+//   }
+
+//     const serverSecretKey = `secret=${process.env.RECAPTCHA_SERVER_SECRET_KEY}&response=${req.body.recaptchaResponse}`;
+
+//     //* Verify reCAPTCHA response with Google's verification API
+//     const responce_recaptcha = await fetch(
+//       'https://www.google.com/recaptcha/api/siteverify',
+//       {
+//         method: 'POST',
+//         headers: {
+//           'Content-Type': 'application/x-www-form-urlencoded',
+//         },
+//         body: serverSecretKey,
+//       },
+//     );
+//     const responceJson_recaptcha = await responce_recaptcha.json();
+
+//     if (responceJson_recaptcha.success) {
+//       const mongodb_url = process.env.MONGODB_URI;
+//       const client = new MongoClient(mongodb_url!);
+
+//       try {
+//         await client.connect();
+//         const database = client.db('exegiltor');
+//         const collection = database.collection(formIndicatorHeader);
+
+//         //* Insert the data into the collection
+//         const result = await collection.insertOne(req.body);
+
+//         res.status(200).json({ message: 'Data inserted successfully', result });
+//       } catch (error) {
+//         //* Handle database connection or operation errors
+//         res.status(500).json({ message: 'Internal server error', error });
+//       } finally {
+//         await client.close();
+//       }
+//     } else {
+//       res.status(400).json({ message: 'reCAPTCHA verification failed' });
+//     }
+//   } else {
+//     //* Handle non-POST requests
+//     res.setHeader('Allow', ['POST']);
+//     res.status(405).end(`Method ${req.method} not allowed`);
+//   }
+// }
+
+// export default handler;
+
+export default function handler() {
+  //
+}

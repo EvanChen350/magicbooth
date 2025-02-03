@@ -1,0 +1,37 @@
+{
+  "hero-title": "A Magic Solution For All Your Problems",
+  "hero-mainTitle":"MAGICBOOTH",
+  "hero-explore": "EXPLORE",
+  "hero-shop": "SHOP NOW",
+  "hero-menu": "MENU",
+  "hero-menu-items": [
+    {
+      "path": "scene",
+      "value": "Scenarios"
+    },
+    {
+      "path": "solution",
+      "value": "Solutions"
+    },
+    {
+      "path": "feature",
+      "value": "Features"
+    },
+    {
+      "path": "product-detail",
+      "value": "Product Detail"
+    },
+    {
+      "path": "order-flow",
+      "value": "Order Flow"
+    },
+    {
+      "path": "gallery",
+      "value": "Gallery"
+    },
+    {
+      "path": "contact",
+      "value": "Contact"
+    }
+  ]
+}

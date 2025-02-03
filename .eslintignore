@@ -1,0 +1,19 @@
+# dir
+node_modules/
+dist/
+fixtures/
+coverage/
+build/
+bin/
+obj/
+out/
+.next/
+
+# config
+.eslintrc.js
+prettier.config.js
+next.config.js
+tsconfig.json
+tsconfig.base.json
+tsconfig.eslint.json
+postcss.config.js

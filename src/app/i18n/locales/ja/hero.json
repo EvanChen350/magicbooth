@@ -1,0 +1,37 @@
+{
+  "hero-title": "魔法にてすべての問題が解決済み",
+  "hero-mainTitle": "マジックブース",
+  "hero-menu": "メニュー",
+  "hero-explore": "探索する",
+  "hero-shop": "今すぐ購入",
+  "hero-menu-items": [
+    {
+      "path": "scene",
+      "value": "シナリオ"
+    },
+    {
+      "path": "solution",
+      "value": "ソリューション"
+    },
+    {
+      "path": "feature",
+      "value": "機能"
+    },
+    {
+      "path": "product-detail",
+      "value": "製品詳細"
+    },
+    {
+      "path": "order-flow",
+      "value": "注文の流れ"
+    },
+    {
+      "path": "gallery",
+      "value": "ギャラリー"
+    },
+    {
+      "path": "contact",
+      "value": "お問い合わせ"
+    }
+  ]
+}

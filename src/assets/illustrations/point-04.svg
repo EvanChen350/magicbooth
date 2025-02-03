@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_2" data-name="レイヤー 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 99.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: transparent;
+      }
+
+      .cls-2 {
+        fill: #f4930e;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #f4930e;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="_レイヤー_2-2" data-name="レイヤー 2">
+    <rect class="cls-1" width="140" height="99.79"/>
+    <g>
+      <g>
+        <polyline class="cls-3" points="28.84 24.51 22.8 31.08 28.84 37.65 22.8 44.22 28.84 50.79 22.8 57.37 28.84 63.94"/>
+        <polyline class="cls-3" points="111.16 24.51 117.2 31.08 111.16 37.65 117.2 44.22 111.16 50.79 117.2 57.37 111.16 63.94"/>
+      </g>
+      <line class="cls-3" x1="15.36" y1="79.82" x2="124.64" y2="79.82"/>
+      <polyline class="cls-3" points="62.89 79.65 54.75 86.21 66.15 89.77 59.96 94.14 65.5 97.43"/>
+      <polyline class="cls-3" points="78.41 79.92 85.25 87.85 78.74 91.27 81.34 95.51"/>
+      <g>
+        <path class="cls-2" d="m98.2,79.92h-57.79c-.47,0-.85-.38-.85-.85V4.63c0-.47.38-.85.85-.85h57.79c.47,0,.85.38.85.85v74.44c0,.47-.38.85-.85.85Zm-56.93-1.71h56.08V5.48h-56.08v72.73Z"/>
+        <path class="cls-2" d="m92.5,74.23h-46.39c-.47,0-.85-.38-.85-.85V10.32c0-.47.38-.85.85-.85h46.39c.47,0,.85.38.85.85v63.05c0,.47-.38.85-.85.85Zm-45.54-1.71h44.69V11.18h-44.69v61.34Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

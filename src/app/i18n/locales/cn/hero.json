@@ -1,0 +1,37 @@
+{
+  "hero-title": "一个能解决您所有问题的方案",
+  "hero-mainTitle": "摩方快仓",
+  "hero-menu": "菜单",
+  "hero-explore": "浏览",
+  "hero-shop": "立即购买",
+  "hero-menu-items": [
+    {
+      "path": "scene",
+      "value": "使用场景"
+    },
+    {
+      "path": "solution",
+      "value": "解决方案"
+    },
+    {
+      "path": "feature",
+      "value": "功能"
+    },
+    {
+      "path": "product-detail",
+      "value": "产品详情"
+    },
+    {
+      "path": "order-flow",
+      "value": "订单流程"
+    },
+    {
+      "path": "gallery",
+      "value": "图库"
+    },
+    {
+      "path": "contact",
+      "value": "联系我们"
+    }
+  ]
+}
