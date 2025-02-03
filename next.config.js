@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   swcMinify: true,
   /**
    * Ref: https://lucide.dev/guide/packages/lucide-react
