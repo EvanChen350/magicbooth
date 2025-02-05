@@ -22,7 +22,7 @@ const LangSwitcher = ({ className, lng }: { className?: string; lng: string }) =
   const options: LangOption[] = [
     { country: 'English', code: 'en' }, // Native name is the same
     { country: '日本語', code: 'ja' },
-    { country: '中文', code: 'cn' },
+    { country: '中文', code: 'zh' },
   ];
   const { t } = useTranslation(lng, 'header');
   const pathname = usePathname();
