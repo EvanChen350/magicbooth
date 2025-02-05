@@ -18,9 +18,14 @@ export function middleware(req) {
   )
     return NextResponse.next();
   let lng;
-  if (req.cookies.has(cookieName))
+  if (req.nextUrl.pathname != '/' && req.cookies.has(cookieName))
     lng = acceptLanguage.get(req.cookies.get(cookieName).value);
-  if (!lng) lng = acceptLanguage.get(req.headers.get('Accept-Language'));
+  if (!lng) {
+    lng = acceptLanguage.get(
+      req.headers.get('Accept-Language')?.split(',')[0]?.split('-')[0],
+    );
+  }
+
   if (!lng) lng = fallbackLng;
 
   // Redirect if lng in path is not supported
