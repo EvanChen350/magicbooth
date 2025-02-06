@@ -55,7 +55,7 @@ const ContactForm = ({ lng, className }: ContactFormProps) => {
        */
       // await new Promise(resolve => setTimeout(resolve, 6000));
 
-      const response = await fetch('http://localhost:3001/mailController.php', {
+      const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
